@@ -1,0 +1,412 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: sans-serif;
+}
+
+.page1{
+    height: 100vh;
+    background-color: #636C79;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.page1 .navbar{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page1 .navbar img{
+    margin-left: 150px;
+    width: 100px;
+}
+
+.page1 .navbar ul{
+    margin-left: 350px;
+    display: flex;
+    list-style: none;
+}
+
+.page1 .navbar .list-item{
+    margin: 0px 20px 0px 20px;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.page1 .navbar button{
+    margin-right: 150px;
+    padding: 5px 50px 5px 50px;
+    background-color: transparent;
+    border: 1px solid #f5f5f5;
+    color: #ffffff;
+
+}
+
+.page1 .bottom{
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.page1 .bottom .col-right img{
+    margin-left: 150px;
+    width: 600px;
+    height: 550px;
+    border-radius: 5px;
+}
+
+.page1 .bottom .col-left{
+    margin-right: 150px;
+    margin-left: 100px;
+    color: #ffffff;
+}
+
+.page1 .bottom .col-left h1{
+    font-size: 60px;
+}
+
+.page1 .bottom .col-left p{
+    margin-top: 28px;
+    font-size: 20px;
+    color: #bcbfc4;
+    line-height: 30px;
+}
+
+.address{
+    position: relative;
+}
+
+.page1 .bottom .col-left input{
+    margin-top: 28px;
+    padding: 20px 60px;
+    font-size: 16px;
+    width: 360px;
+}
+
+.page1 .bottom .col-left button{
+    position: absolute;
+    right: 44px;
+    top: 38px;
+    padding: 12px 40px;
+    font-size: 15px;
+    width: 150px;
+    background-color: #8BB7A2;
+    border-style: none;
+    color: #ffffff;
+}
+
+.page2{
+    margin-top: 80px;
+}
+
+.page2 h1{
+    text-align: center;
+    margin: 0px 450px;
+}
+
+.page2 .bottom{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.page2 .bottom h2{
+    font-size: 40px;
+}
+
+.page2 .bottom p{
+    font-size: 15px;
+    color: #636C79;
+}
+
+.page2 img{
+    margin-top: 80px;
+    width: 80vw;
+    margin-left: 150px;
+}
+
+.page3{
+    height: 200vh;
+    margin-top: 150px;
+}
+
+.page3 h1{
+    text-align: center;
+    margin: 0px 450px;
+}
+
+.page3 .part1{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page3 .part1 .col-left{
+    margin-left: 150px;
+    margin-right: 50px;
+    width: 50vw;
+}
+
+.page3 .part1 .col-left h2{
+    font-size: 40px;
+}
+
+.page3 .part1 .col-left p{
+    margin-top: 30px;
+    font-size: 18px;
+    color: #636C79;
+    line-height: 30px;
+}
+
+.page3 .part1 .col-left button{
+    margin-top: 30px;
+    padding: 12px 40px;
+    font-size: 15px;
+    width: 150px;
+    background-color: #8BB7A2;
+    border-style: none;
+    color: #ffffff;
+}
+
+.page3 .part1 .col-right{
+    margin-right: 150px;
+    margin-left: 50px;
+    width: 50vw;
+}
+
+.page3 .part1 .col-right img{
+    width: 30vw;
+}
+
+.page3 .part2{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page3 .part2 .col-left{
+    margin-left: 150px;
+    width: 50vw;
+}
+
+.page3 .part2 .col-left img{
+
+    height: 600px;
+}
+
+.page3 .part2 .col-right{
+    margin-right: 150px;
+    width: 50vw;
+}
+
+.page3 .part2 .col-right h2{
+    font-size: 40px;
+}
+
+.page3 .part2 .col-right p{
+    margin-top: 30px;
+    font-size: 18px;
+    color: #636C79;
+    line-height: 30px;
+}
+
+.page3 .part2 .col-right button{
+    margin-top: 30px;
+    padding: 12px 40px;
+    font-size: 15px;
+    width: 150px;
+    background-color: #8BB7A2;
+    border-style: none;
+    color: #ffffff;
+}
+
+.page3 .part2 .col-left img{
+    width: 30vw;
+}
+
+.page3 .part3{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page3 .part3 .col-left{
+    margin-left: 150px;
+    margin-right: 50px;
+    width: 50vw;
+}
+
+.page3 .part3 .col-left h2{
+    font-size: 40px;
+}
+
+.page3 .part3 .col-left p{
+    margin-top: 30px;
+    font-size: 18px;
+    color: #636C79;
+    line-height: 30px;
+}
+
+.page3 .part3 .col-left button{
+    margin-top: 30px;
+    padding: 12px 40px;
+    font-size: 15px;
+    width: 150px;
+    background-color: #8BB7A2;
+    border-style: none;
+    color: #ffffff;
+}
+
+.page3 .part3 .col-right{
+    margin-right: 150px;
+    margin-left: 50px;
+    width: 50vw;
+}
+
+.page3 .part3 .col-right img{
+    width: 30vw;
+}
+
+.page4{
+    height: 120vh;
+    margin-top: 150px;
+}
+
+.page4 .top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 150px;
+}
+
+.page4 .top h1{
+    font-size: 40px;
+    margin: 0px 100px;
+    width: 50vw;
+
+}
+
+.page4 .top p{
+    width: 50vw;
+    font-size: 20px;
+    margin: 0px 100px;
+    color: #636C79;
+}
+
+.page4 .bottom{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.page4 .bottom .card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 25vw;
+    margin-right: 20px;
+}
+
+.page4 .card img{
+    height: 550px;
+}
+
+.page4 .card h3{
+    margin-top: 20px;
+}
+
+.page4 .card p{
+    margin-top: 20px;
+    color: #636C79;
+}
+
+.page4 button{
+    margin-left: 45vw;
+    margin-top: 60px;
+    padding: 12px 40px;
+    font-size: 15px;
+    width: 150px;
+    background-color: #8BB7A2;
+    border-style: none;
+    color: #ffffff;
+}
+
+.page5{
+    height: 80vh;
+    margin-top: 100px;
+    background-color: #10181D;
+}
+
+.page5 .top{
+    height: 20vh;
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page5 .top img{
+    width: 150px;
+}
+
+.page5 .top ul{
+    display: flex;
+    list-style: none;
+    color: #ffffff;
+}
+
+.page5 .top ul li{
+    margin: 0px 10px;
+    font-size: 15px;
+}
+
+.page5 .top ul li span{
+    padding: 20px;
+    border-radius: 40px;
+    background-color: #282F34;
+}
+
+hr{
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+.page5 .bottom{
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+}
+
+.page5 .bottom .list h3{
+    font-size: 20px;
+}
+
+.page5 .bottom .list ul{
+    font-size: 15px;
+    margin-top: 30px;
+    list-style: none;
+    line-height: 50px;
+    color: #636C79;
+
+}
+
