@@ -10,7 +10,6 @@
     background-color: #636C79;
     display: flex;
     flex-direction: column;
-
 }
 
 .page1 .navbar{
@@ -37,13 +36,16 @@
     font-size: 15px;
 }
 
+.fa-bars{
+    visibility: hidden;
+}
+
 .page1 .navbar button{
     margin-right: 150px;
     padding: 5px 50px 5px 50px;
     background-color: transparent;
     border: 1px solid #f5f5f5;
     color: #ffffff;
-
 }
 
 .page1 .bottom{
@@ -407,6 +409,282 @@ hr{
     list-style: none;
     line-height: 50px;
     color: #636C79;
+}
+
+@media screen and (max-width:1500px) {
+    
+    .page1 .navbar img{
+        margin-left: 50px;
+        width: 80px;
+    }
+
+    .page1 .navbar button{
+        margin-right: 50px;
+        padding: 5px 30px 5px 30px;
+    }
+
+    .page1 .bottom .col-right img{
+        margin-left: 50px;
+        width: 400px;
+        height: 370px;
+    }
+
+    .page1 .bottom .col-left h1{
+        font-size: 40px;
+    }
+
+    .page1 .bottom .col-left button{
+        position: absolute;
+        right: 70px;
+        top: 38px;
+        padding: 12px 40px;
+        font-size: 15px;
+        width: 150px;
+    }
+
+    .page4{
+        height: 120vh;
+        margin-top: 150px;
+    }
+
+    .page4 .top{
+        justify-content: flex-start;
+        margin: 0px 100px;
+    }
+    
+    .page4 .top h1{
+        font-size: 40px;
+        width: 50vw;
+        margin: 0px 0px;
+    
+    }
+    
+    .page4 .top p{
+        width: 50vw;
+        font-size: 20px;
+        margin: 0px 0px;
+    }
+
+    .page4 .bottom{
+        margin-left: 100px;
+        margin-right: 100px;
+    }   
+
+    .page4 .card img{
+        height: 370px;
+    }
+}
+
+@media screen and (max-width:1100px){
+    .page1 .navbar .list-item{
+        display: none;
+    }
+    
+    .fa-bars{
+        visibility: visible; 
+        margin-left: 300px;
+        color: #ffffff;   
+    }
+
+    .page1 .bottom .col-left{
+        margin-right: 50px;
+        margin-left: 50px;
+        color: #ffffff;
+    }
+
+    .page1 .bottom .col-left button{
+        position: absolute;
+        right: 65px;
+        top: 38px;
+        width: 150px;
+    }
+
+    .page2 h1{
+        margin: 0px 50px;
+    }
+
+    .page3 h1{
+        margin: 0px 50px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .fa-bars{
+        visibility: visible; 
+        margin-left: 200px;
+        color: #ffffff;   
+    }
+
+    .page1{
+        height: 120vh;
+    }
+
+    .page1 .bottom{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .address{
+        display: none;
+    }
+
+    .page2 .bottom{
+        margin-left: 50px;
+        margin-right: 50px;}
+
+    .page2 img{
+        margin-top: 80px;
+        width: 80vw;
+        margin-left:50px;
+    }
+
+    .page3 .part1 .col-right{
+        margin-right: 150px;
+        margin-left: 50px;
+        width: 50vw;
+    }
+
+    .page3 .part1 .col-right{
+        margin-right: 50px;
+    }
+
+    .page3 .part2 .col-right{
+        margin-right: 50px;
+    }
+
+    .page3 .part3 .col-right{
+        margin-right: 50px;
+    }
+
+    .page3 .part1 .col-left{
+        margin-left: 50px;
+    }
+
+    .page3 .part2 .col-left{
+        margin-left: 50px;
+    }
+
+    .page3 .part3 .col-left{
+        margin-left: 50px;
+    }
+
+    .page3 .part1 .col-right{
+        display: none;
+     }
+     .page3 .part2 .col-left{
+         display: none;
+     }
+     .page3 .part3 .col-right{
+         display: none;
+     }
+ 
+     .page3> .part1, .page3>.part2,.page3> .part3{
+         justify-content: center;
+     }
+ 
+     .page3>.part2{
+         margin-left: 50px;
+     }
+
+
+    .page4 .top{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 0px 50px;
+    }
+
+    .page4 .bottom{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .page4 .card img{
+        height: 230px;
+    }
+
+    .page4 .top h1{
+        width: 90vw;
+    
+    }
+    
+    .page4 .top p{
+        width: 90vw;
+    }
+
+    .page5{
+        height: 120vh;
+    }
+
+    .page5 .bottom{
+        margin-right: 50px;
+        margin-left: 50px;
+        flex-wrap: wrap;
+    }
+
+    .page5 .list{
+        margin: 10px 20px;
+    }
+}
+
+@media screen and (max-width:860px){
+    .fa-bars{
+        margin-left: 50px;  
+    }
+}
+
+@media screen and (max-width:860px){
+    .fa-bars{
+        margin-left: 50px;  
+    }
+}
+
+@media screen and (max-width:680px){
+
+    .page1 .navbar{
+        justify-content: center;
+    }
+
+    .fa-bars{
+        margin-left: 0px; 
+        margin-right: 50px; 
+    }
+
+    .page5 .top{
+        margin-right: 50px;
+        margin-left: 50px;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .page5 .top img{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    hr{
+        margin-right: 50px;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+    .page3{
+        height: 250vh;
+    }
+
+    .page4{
+        height: 250vh;
+    }
+
+    
 
 }
+
 
